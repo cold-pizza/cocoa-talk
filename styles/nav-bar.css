@@ -26,3 +26,13 @@
 .nav-bar .info-icons i {
   margin-right: 4px;
 }
+.menu-bar .menu-icon:nth-child(2) i {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.menu-bar .menu-icon:nth-child(2) i .red-dot {
+  position: absolute;
+  top: -16px;
+  right: -12px;
+}
