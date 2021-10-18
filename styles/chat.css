@@ -1,0 +1,34 @@
+.profile-info-bar {
+  cursor: pointer;
+}
+.profile-info-bar .chat-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.profile-info-bar .imgAndName > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-info-bar .imgAndName .chat-times {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.profile-info-bar .imgAndName .chat-times span {
+  margin-bottom: 4px;
+}
+.profile-info-bar .imgAndName > div:first-child .chat-content {
+  display: flex;
+  flex-direction: column;
+}
+.profile-info-bar .imgAndName > div:first-child .chat-content span:first-child {
+  margin-bottom: 8px;
+}
+.profile-info-bar .imgAndName > div:first-child .chat-content span:last-child {
+  font-size: 14px;
+  color: var(--light-gray);
+}

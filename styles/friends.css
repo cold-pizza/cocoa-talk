@@ -1,0 +1,69 @@
+.profile-info-bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.profile-info-bar .imgAndName img {
+  max-width: 70px;
+  width: 100%;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 14px;
+}
+.profile-info-bar .imgAndName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.profile-info-bar .imgAndName .name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.channel-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+  color: var(--light-gray);
+  cursor: pointer;
+}
+.channel-btn span {
+  font-size: 16px;
+}
+.channel-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.channel-items .imgAndName img {
+  max-width: 70px;
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 22px;
+  margin-right: 10px;
+}
+.channel-items .imgAndName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.channel-items .imgAndName span {
+  font-size: 20px;
+}
+.channel-items .more-btn {
+  color: var(--light-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.channel-items .more-btn span {
+  margin-right: 4px;
+}

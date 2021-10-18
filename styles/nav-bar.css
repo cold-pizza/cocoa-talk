@@ -1,0 +1,28 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 4px;
+}
+.nav-bar .service {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+}
+.nav-bar .service span {
+  margin-right: 4px;
+}
+.nav-bar .time {
+  width: 33%;
+}
+.nav-bar .info-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.nav-bar .info-icons i {
+  margin-right: 4px;
+}

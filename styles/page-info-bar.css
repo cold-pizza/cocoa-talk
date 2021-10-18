@@ -1,0 +1,16 @@
+.page-info-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.page-info-bar span {
+  font-size: 32px;
+  font-weight: 700;
+}
+.page-info-bar i {
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}

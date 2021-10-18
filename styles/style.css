@@ -1,0 +1,72 @@
+@import "index.css";
+@import "nav-bar.css";
+@import "page-info-bar.css";
+@import "friends.css";
+@import "menu-bar.css";
+@import "chat.css";
+@import "find.css";
+@import "more.css";
+@import "chating.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap");
+:root {
+  --blue-color: #80bfff;
+  --light-gray: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Comfortaa", cursive;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+input {
+  outline: none;
+}
+.body {
+  padding: 20px;
+  font-family: "Comfortaa", cursive;
+  animation: dododongjang 0.4s ease-in-out;
+  height: 100%;
+}
+@keyframes dododongjang {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.red-dot {
+  width: 30px;
+  height: 30px;
+  background-color: #ff7066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+}
+
+img {
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(50, 50, 80, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.blue-check {
+  color: var(--blue-color);
+}

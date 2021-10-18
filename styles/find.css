@@ -1,0 +1,125 @@
+.find-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-gray);
+  padding-bottom: 30px;
+}
+.find-icons .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons .icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.recommend-bar {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--light-gray);
+  height: 300px;
+  border-bottom: 1px solid var(--light-gray);
+}
+.recommend-bar span:last-child {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.event-bar {
+  margin-top: 20px;
+  border-bottom: 1px solid var(--light-gray);
+  padding-bottom: 20px;
+}
+.event-bar div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.event-bar div:first-child span:first-child {
+  color: rgba(0, 0, 0, 0.7);
+}
+.event-bar div:first-child span:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.event-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.event-items .hashtags .hashtag-pro img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.event-items .image img {
+  width: 110px;
+  height: 110px;
+  border-radius: 12px;
+}
+.event-bar .hashtags {
+  display: flex;
+  flex-direction: column;
+}
+.event-bar .hashtags span:first-child {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.event-bar .hashtags > span:nth-child(2) {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 8px;
+}
+.event-bar .hashtag-pro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.event-bar .hashtags .hashtag-pro .span1 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 8px;
+}
+.event-bar .hashtags .hashtag-pro .span2 {
+  font-size: 16px;
+  color: pink;
+}
+.line-bar {
+  width: 2px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-right: 8px;
+}
+.event-bar .image {
+  position: relative;
+}
+.event-bar .image .heart-box {
+  position: absolute;
+  bottom: 10px;
+  right: 4px;
+  width: 60px;
+  height: 28px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.event-bar .image .heart-box:hover {
+  color: tomato;
+}
+.event-bar .image .heart-box i,
+.event-bar .image .heart-box span {
+  font-size: 14px;
+}

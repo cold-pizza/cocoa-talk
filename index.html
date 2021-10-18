@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocoa Talk</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="service">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="time">09:32</div>
+      <div class="info-icons">
+        <div>85%</div>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </nav>
+
+    <main class="body">
+      <section class="greeting">
+        <span>Welcome to CocoaTalk</span>
+        <span
+          >If you have a KoKoa Account, <br />log in with your email or phone
+          number.</span
+        >
+      </section>
+
+      <form action="friends.html" id="login-form">
+        <input
+          type="text"
+          class="id"
+          placeholder="Email or phone number"
+          required
+        />
+        <input
+          type="password"
+          class="password"
+          placeholder="Password"
+          required
+        />
+        <button class="login-btn">Log In</button>
+        <button class="signup-btn">Sign Up</button>
+      </form>
+      <span class="forget-id">Find KoKoa Account or Password</span>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 28px;
+  background-color: #eee;
+  border-top: 1px solid #717171;
+}
+.menu-bar a {
+  color: rgba(0, 0, 0, 0.7);
+}
